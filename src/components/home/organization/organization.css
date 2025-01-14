@@ -1,0 +1,49 @@
+.organization .items {
+    padding: 30px;
+    transition: 0.5s;
+  }
+  
+  .organization .img {
+    position: relative;
+  }
+  .organization img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .organization i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #1eb2a6;
+    color: #fff;
+  }
+  .organization .name {
+    margin: 25px;
+  }
+  .organization .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .organization .name span {
+    color: #1eb2a6;
+  }
+  .organization p {
+    margin-top: 20px;
+    color: grey;
+    transition: 0.5s;
+  }
+  .organization .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+  }
+  .organization .items:hover span,
+  .organization .items:hover p {
+    color: #fff;
+  }
+  .organization .items:hover i {
+    background-color: #fff;
+    color: #1eb2a6;
+  }
+  
